@@ -7,7 +7,7 @@ from scipy import stats
 from scipy.stats.stats import pearsonr
 import sys
 from datetime import datetime
-inDir = '/mnt/nas/Research/TBRC/in/'
+inDir = '/mnt/nas/Research/TBRC/out/'
 
 for filename in os.listdir(inDir):
   #read in
